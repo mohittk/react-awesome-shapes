@@ -1,5 +1,5 @@
 <div align="center">
-<img alt="preview" src="./public/logo.png" />
+<img height="150" alt="preview" src="./public/logo.png" />
 </div>
 
 <h1 align="center">React Awesome Shapes</h1> 
@@ -64,7 +64,7 @@ Read the complete in detail documentation in the [Usage section](https://github.
 
 ## Usage
 
-Currently, the package contains shapes: [Circle](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/circle.tsx), [Donut](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/donut.tsx), [CircleGrid](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/circlegrid.tsx), [Square](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/square.tsx), [Diamond](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/diamond.tsx).
+Currently, the package contains shapes: [Circle](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/circle.tsx), [Donut](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/donut.tsx), [CircleGrid](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/circlegrid.tsx), [Square](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/square.tsx), [Diamond](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/diamond.tsx), [PolygonCard](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/polygonCard.tsx).
 
 All of the shapes currently present in the package are made responsive and the responsiveness is customisable too. To do that, one of the prop to each shape component is `breakpoints` which is an array of numbers. It represents the breakpoints in which you will define the responsiveness. By default, `breakpoints` are defined as `[600, 900, 1200]`. So, you can pass array of 4 elements for `size` prop which corresponds to `<=600`, `600<size<=900`, `900<size<=1200`, `>1200`. Similarly, you can pass other props in form of array if you want to define different sizes for different breakpoints. You can see list of props corresponding to each shape in the respective implementation file linked above with shape.
 
@@ -97,6 +97,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/ashutosh1919"><img src="https://avatars.githubusercontent.com/u/20843596?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ashutosh Hathidara</b></sub></a><br /><a href="https://github.com/ashutosh1919/react-awesome-shapes/commits?author=ashutosh1919" title="Code">💻</a> <a href="#design-ashutosh1919" title="Design">🎨</a> <a href="https://github.com/ashutosh1919/react-awesome-shapes/commits?author=ashutosh1919" title="Documentation">📖</a> <a href="#ideas-ashutosh1919" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-ashutosh1919" title="Maintenance">🚧</a> <a href="#research-ashutosh1919" title="Research">🔬</a></td>
     <td align="center"><a href="https://sachinchaurasiya.dev/"><img src="https://avatars.githubusercontent.com/u/59080942?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sachin Chaurasiya</b></sub></a><br /><a href="https://github.com/ashutosh1919/react-awesome-shapes/commits?author=Sachin-chaurasiya" title="Documentation">📖</a> <a href="https://github.com/ashutosh1919/react-awesome-shapes/commits?author=Sachin-chaurasiya" title="Code">💻</a> <a href="#ideas-Sachin-chaurasiya" title="Ideas, Planning, & Feedback">🤔</a> <a href="#platform-Sachin-chaurasiya" title="Packaging/porting to new platform">📦</a></td>
     <td align="center"><a href="http://mohittk.github.io"><img src="https://avatars.githubusercontent.com/u/79041510?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mohit Khairnar</b></sub></a><br /><a href="#ideas-mohittk" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/ashutosh1919/react-awesome-shapes/commits?author=mohittk" title="Code">💻</a> <a href="#design-mohittk" title="Design">🎨</a> <a href="https://github.com/ashutosh1919/react-awesome-shapes/commits?author=mohittk" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/anaghaachakrapani"><img src="https://avatars.githubusercontent.com/u/77433706?v=4?s=100" width="100px;" alt=""/><br /><sub><b>anaghaachakrapani</b></sub></a><br /><a href="#design-anaghaachakrapani" title="Design">🎨</a> <a href="#ideas-anaghaachakrapani" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
